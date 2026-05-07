@@ -1,0 +1,30 @@
+{
+    "name": "vs-claude",
+    "displayName": "VS Claude",
+    "description": "A warm, Claude.ai-inspired dark theme for VSCode and Antigravity IDE.",
+    "version": "1.0.0",
+    "publisher": "estarinazx",
+    "license": "MIT",
+    "engines": {
+        "vscode": "^1.80.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "keywords": [
+        "theme",
+        "dark",
+        "claude",
+        "anthropic",
+        "warm"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "VS Claude",
+                "uiTheme": "vs-dark",
+                "path": "./themes/vs-claude-color-theme.json"
+            }
+        ]
+    }
+}
